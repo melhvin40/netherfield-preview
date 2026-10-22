@@ -1,0 +1,190 @@
+{
+ "places": [
+  {
+   "slug": "glyfada-seaside",
+   "name": "Glyfada Seaside",
+   "region": "kato-glyfada",
+   "status": "available",
+   "location": "Prime Kato Glyfada",
+   "price": "\u20ac890.000",
+   "url": "property-glyfada-seaside.html",
+   "lat": 37.86016,
+   "lng": 23.74137,
+   "exact": false
+  },
+  {
+   "slug": "eleftherias-3",
+   "name": "Eleftherias 3",
+   "region": "kato-glyfada",
+   "status": "available",
+   "location": "Prime Kato Glyfada",
+   "price": "\u20ac520.000",
+   "url": "property-eleftherias-3.html",
+   "lat": 37.8708,
+   "lng": 23.74612,
+   "exact": false
+  },
+  {
+   "slug": "agiou-konstantinou",
+   "name": "Agiou Konstantinou",
+   "region": "athens-center",
+   "status": "available",
+   "location": "Athens Center",
+   "price": "\u20ac250.000",
+   "url": "property-agiou-konstantinou.html",
+   "lat": 37.98118,
+   "lng": 23.72906,
+   "exact": false
+  },
+  {
+   "slug": "omirou-31",
+   "name": "Omirou 31",
+   "region": "kato-glyfada",
+   "status": "available",
+   "location": "Prime Kato Glyfada",
+   "price": "\u20ac640.000",
+   "url": "property-omirou-31.html",
+   "lat": 37.87014,
+   "lng": 23.75225,
+   "exact": false
+  },
+  {
+   "slug": "piraeus-fillelinon",
+   "name": "Piraeus Fillelinon",
+   "region": "piraeus",
+   "status": "available",
+   "location": "Marina Zeas, Piraeus",
+   "price": "\u20ac430.000",
+   "url": "property-piraeus-fillelinon.html",
+   "lat": 37.93607,
+   "lng": 23.65912,
+   "exact": false
+  },
+  {
+   "slug": "papandreou-21",
+   "name": "Papandreou 21",
+   "region": "kato-glyfada",
+   "status": "available",
+   "location": "Prime Kato Glyfada",
+   "price": "\u20ac1.250.000",
+   "url": "property-papandreou-21.html",
+   "lat": 37.87131,
+   "lng": 23.75137,
+   "exact": false
+  },
+  {
+   "slug": "karaiskaki-building",
+   "name": "Karaiskaki Building",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac390.000",
+   "url": "property-karaiskaki-building.html",
+   "lat": 37.97094,
+   "lng": 23.73412,
+   "exact": false
+  },
+  {
+   "slug": "electra",
+   "name": "Electra",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac610.000",
+   "url": "property-electra.html",
+   "lat": 37.97103,
+   "lng": 23.73806,
+   "exact": false
+  },
+  {
+   "slug": "megalou-alexandrou",
+   "name": "Megalou Alexandrou",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac470.000",
+   "url": "property-megalou-alexandrou.html",
+   "lat": 37.98017,
+   "lng": 23.73656,
+   "exact": false
+  },
+  {
+   "slug": "dodekanisou-building",
+   "name": "Dodekanisou Building",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac280.000",
+   "url": "property-dodekanisou-building.html",
+   "lat": 37.97905,
+   "lng": 23.73381,
+   "exact": false
+  },
+  {
+   "slug": "megalou",
+   "name": "Megalou",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac680.000",
+   "url": "property-megalou.html",
+   "lat": 37.97722,
+   "lng": 23.73262,
+   "exact": false
+  },
+  {
+   "slug": "voula",
+   "name": "Voula",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Voula, Athens Riviera",
+   "price": "\u20ac1.150.000",
+   "url": "property-voula.html",
+   "lat": 37.844,
+   "lng": 23.776,
+   "exact": false
+  },
+  {
+   "slug": "asklipiou",
+   "name": "Asklipiou",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac360.000",
+   "url": "property-asklipiou.html",
+   "lat": 37.97253,
+   "lng": 23.73469,
+   "exact": false
+  },
+  {
+   "slug": "orfeos",
+   "name": "Orfeos",
+   "region": "delivered",
+   "status": "sold",
+   "location": "Athens, Greece",
+   "price": "\u20ac265.000",
+   "url": "property-orfeos.html",
+   "lat": 37.97225,
+   "lng": 23.73875,
+   "exact": false
+  }
+ ],
+ "regions": {
+  "kato-glyfada": {
+   "lat": 37.8655,
+   "lng": 23.749
+  },
+  "athens-center": {
+   "lat": 37.9838,
+   "lng": 23.7275
+  },
+  "piraeus": {
+   "lat": 37.9372,
+   "lng": 23.652
+  },
+  "delivered": {
+   "lat": 37.976,
+   "lng": 23.74
+  }
+ }
+}
