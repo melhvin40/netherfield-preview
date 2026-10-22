@@ -141,11 +141,21 @@ function start() {
   loadCss(BASE + 'lib/maplibre-gl.css');
   document.addEventListener('nf:map-visible', ev => build(ev.target));
   const holders = Array.from(document.querySelectorAll('.pmap'));
-  if (!('IntersectionObserver' in window)) { holders.forEach(build); return; }
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(en => { if (en.isIntersecting) { io.unobserve(en.target); build(en.target); } });
-  }, { rootMargin: '300px' });
-  holders.forEach(h => io.observe(h));
+  // build each map once it is (nearly) on screen; plain scroll checks work in every browser state
+  let queued = false;
+  const check = () => {
+    queued = false;
+    holders.forEach(h => {
+      if (h.dataset.live || h.offsetParent === null) return;
+      const r = h.getBoundingClientRect();
+      if (r.top < innerHeight + 400 && r.bottom > -400) build(h);
+    });
+  };
+  const queue = () => { if (!queued) { queued = true; setTimeout(check, 120); } };
+  addEventListener('scroll', queue, { passive: true });
+  addEventListener('resize', queue);
+  check();
+  setTimeout(check, 800);
 }
 
 start();
