@@ -8,8 +8,8 @@
    "location": "Prime Kato Glyfada",
    "price": "\u20ac890.000",
    "url": "property-glyfada-seaside.html",
-   "lat": 37.86016,
-   "lng": 23.74137,
+   "lat": 37.86897,
+   "lng": 23.75234,
    "exact": false
   },
   {
@@ -20,8 +20,8 @@
    "location": "Prime Kato Glyfada",
    "price": "\u20ac520.000",
    "url": "property-eleftherias-3.html",
-   "lat": 37.8708,
-   "lng": 23.74612,
+   "lat": 37.87341,
+   "lng": 23.75412,
    "exact": false
   },
   {
@@ -32,8 +32,8 @@
    "location": "Athens Center",
    "price": "\u20ac250.000",
    "url": "property-agiou-konstantinou.html",
-   "lat": 37.98118,
-   "lng": 23.72906,
+   "lat": 37.98271,
+   "lng": 23.72809,
    "exact": false
   },
   {
@@ -44,8 +44,8 @@
    "location": "Prime Kato Glyfada",
    "price": "\u20ac640.000",
    "url": "property-omirou-31.html",
-   "lat": 37.87014,
-   "lng": 23.75225,
+   "lat": 37.87313,
+   "lng": 23.75642,
    "exact": false
   },
   {
@@ -56,8 +56,8 @@
    "location": "Marina Zeas, Piraeus",
    "price": "\u20ac430.000",
    "url": "property-piraeus-fillelinon.html",
-   "lat": 37.93607,
-   "lng": 23.65912,
+   "lat": 37.94003,
+   "lng": 23.65317,
    "exact": false
   },
   {
@@ -68,8 +68,8 @@
    "location": "Prime Kato Glyfada",
    "price": "\u20ac1.250.000",
    "url": "property-papandreou-21.html",
-   "lat": 37.87131,
-   "lng": 23.75137,
+   "lat": 37.87362,
+   "lng": 23.75609,
    "exact": false
   },
   {
@@ -80,8 +80,8 @@
    "location": "Athens, Greece",
    "price": "\u20ac390.000",
    "url": "property-karaiskaki-building.html",
-   "lat": 37.97094,
-   "lng": 23.73412,
+   "lat": 37.97389,
+   "lng": 23.7378,
    "exact": false
   },
   {
@@ -92,8 +92,8 @@
    "location": "Athens, Greece",
    "price": "\u20ac610.000",
    "url": "property-electra.html",
-   "lat": 37.97103,
-   "lng": 23.73806,
+   "lat": 37.97393,
+   "lng": 23.73927,
    "exact": false
   },
   {
@@ -104,8 +104,8 @@
    "location": "Athens, Greece",
    "price": "\u20ac470.000",
    "url": "property-megalou-alexandrou.html",
-   "lat": 37.98017,
-   "lng": 23.73656,
+   "lat": 37.97774,
+   "lng": 23.73871,
    "exact": false
   },
   {
@@ -116,8 +116,8 @@
    "location": "Athens, Greece",
    "price": "\u20ac280.000",
    "url": "property-dodekanisou-building.html",
-   "lat": 37.97905,
-   "lng": 23.73381,
+   "lat": 37.97727,
+   "lng": 23.73768,
    "exact": false
   },
   {
@@ -128,8 +128,8 @@
    "location": "Athens, Greece",
    "price": "\u20ac680.000",
    "url": "property-megalou.html",
-   "lat": 37.97722,
-   "lng": 23.73262,
+   "lat": 37.97651,
+   "lng": 23.73723,
    "exact": false
   },
   {
@@ -152,8 +152,8 @@
    "location": "Athens, Greece",
    "price": "\u20ac360.000",
    "url": "property-asklipiou.html",
-   "lat": 37.97253,
-   "lng": 23.73469,
+   "lat": 37.97455,
+   "lng": 23.73801,
    "exact": false
   },
   {
@@ -164,23 +164,23 @@
    "location": "Athens, Greece",
    "price": "\u20ac265.000",
    "url": "property-orfeos.html",
-   "lat": 37.97225,
-   "lng": 23.73875,
+   "lat": 37.97444,
+   "lng": 23.73953,
    "exact": false
   }
  ],
  "regions": {
   "kato-glyfada": {
-   "lat": 37.8655,
-   "lng": 23.749
+   "lat": 37.8712,
+   "lng": 23.7552
   },
   "athens-center": {
    "lat": 37.9838,
    "lng": 23.7275
   },
   "piraeus": {
-   "lat": 37.9372,
-   "lng": 23.652
+   "lat": 37.9405,
+   "lng": 23.6505
   },
   "delivered": {
    "lat": 37.976,
