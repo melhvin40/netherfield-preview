@@ -1,8 +1,8 @@
-/* Interactive maps, fully self-hosted: OpenStreetMap data (ODbL) as a Protomaps extract of the
-   Athens area, rendered with MapLibre GL (BSD-3). No request leaves this website, so no third
+/* Interactive maps, fully self-hosted: OpenStreetMap data (ODbL) as plain vector tiles of the
+   Athens area (unpacked from a Protomaps extract), rendered with MapLibre GL (BSD-3). No request leaves this website, so no third
    party receives visitor data and no consent banner is needed.
    The drawn SVG map stays visible until the live map has loaded; if anything fails it simply stays. */
-import { Map as MLMap, Marker, Popup, NavigationControl, AttributionControl, addProtocol } from './lib/maplibre-gl.mjs';
+import { Map as MLMap, Marker, Popup, NavigationControl, AttributionControl } from './lib/maplibre-gl.mjs';
 
 const BASE = new URL('./', import.meta.url).href;
 const BOUNDS = [[23.58, 37.80], [23.84, 38.03]];
@@ -33,7 +33,8 @@ function style() {
     glyphs: BASE + 'fonts/{fontstack}/{range}.pbf',
     sprite: BASE + 'sprites/light',
     sources: {
-      protomaps: { type: 'vector', url: 'pmtiles://' + BASE + 'athens.pmtiles', attribution: ATTRIBUTION }
+      protomaps: { type: 'vector', tiles: [BASE + 'tiles/{z}/{x}/{y}.pbf'], minzoom: 0, maxzoom: 14,
+        bounds: [23.58, 37.80, 23.84, 38.03], attribution: ATTRIBUTION }
     },
     layers: window.basemaps.layers('protomaps', warmFlavor(), { lang: 'en' })
   };
@@ -131,13 +132,11 @@ function build(holder) {
 let started = false;
 function start() {
   if (started) return;
-  if (!window.pmtiles || !window.basemaps) {        // helper scripts not executed yet: check again shortly
+  if (!window.basemaps) {        // helper script not executed yet: check again shortly
     if ((start.tries = (start.tries || 0) + 1) < 200) setTimeout(start, 25);
     return;
   }
   started = true;
-  const protocol = new window.pmtiles.Protocol();
-  addProtocol('pmtiles', protocol.tile);
   loadCss(BASE + 'lib/maplibre-gl.css');
   document.addEventListener('nf:map-visible', ev => build(ev.target));
   const holders = Array.from(document.querySelectorAll('.pmap'));
