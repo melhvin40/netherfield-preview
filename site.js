@@ -16,7 +16,8 @@
       var overHero = !!heroEl && y < heroEl.offsetHeight - header.offsetHeight;
       header.classList.toggle('is-over-hero', overHero);
       header.classList.toggle('is-scrolled', y > 8 && !overHero);
-      if (document.documentElement.classList.contains('menu-open') || y < 120) {
+      // hide-on-scroll only on phones and tablets; laptops and desktops keep a fixed bar
+      if (window.innerWidth > 1024 || document.documentElement.classList.contains('menu-open') || y < 120) {
         header.classList.remove('is-hidden');
       } else if (y > lastScrollY + 4) {
         header.classList.add('is-hidden');
