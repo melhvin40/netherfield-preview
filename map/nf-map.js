@@ -41,7 +41,7 @@ function style() {
 
 let dataPromise = null;
 function places() {
-  if (!dataPromise) dataPromise = fetch(BASE + 'places.json').then(r => r.json());
+  if (!dataPromise) dataPromise = fetch(BASE + 'places.json', { cache: 'no-cache' }).then(r => r.json());
   return dataPromise;
 }
 
